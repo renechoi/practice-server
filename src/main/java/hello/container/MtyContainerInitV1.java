@@ -9,6 +9,8 @@ import java.util.Set;
 public class MtyContainerInitV1 implements ServletContainerInitializer {
     @Override
     public void onStartup(Set<Class<?>> c, ServletContext ctx) throws ServletException {
-        
+        System.out.println("MtyContainerInitV1.onStartup");
+        System.out.println("c = " + c);
+        System.out.println("ctx = " + ctx);
     }
 }
